@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  background-image: radial-gradient(circle,white,black, blue);
 }
 
-.App-link {
-  color: #61dafb;
+.login-container {
+  background-image: linear-gradient(to bottom , rgb(71, 8, 244),black, white);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 16px 40px pink;
+  width: 100%;
+  max-width: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  margin-right: 8%;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0dff00;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fc0bec;
+}
+
+.text-box{
+  background-color: rgb(249, 250, 242);
+}
+.text-box:hover {
+  background-color: rgb(232, 237, 164);
+}
+.password-toggle {
+  cursor: pointer;
+  color: #eef1f5;
+  font-size: 14px;
+}
+
+.password-toggle:hover {
+  text-decoration: underline;
+}
+.google-btn{
+  width: 100%;
+  padding: 10px;
+  background-color: #fc1616;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+.facebook-btn{
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
